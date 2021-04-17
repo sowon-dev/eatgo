@@ -1,0 +1,9 @@
+pluginManagement{
+    repositories {
+        gradlePluginPortal()
+    }
+}
+
+rootProject.name = 'eatgo'
+
+include 'eatgo-api' //멀티프로젝트를 위해 폴더 나누기(src와 build.gradle)
